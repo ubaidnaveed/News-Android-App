@@ -19,7 +19,7 @@ gsonConverter = "2.9.0"
 moshi = "1.13.0"
 moshiConverter = "2.9.0"
 loggingIntercepter = "4.8.1"
-
+coroutines = "1.7.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -48,6 +48,8 @@ gson-converter = {group = "com.squareup.retrofit2", name = "converter-gson", ver
 moshi = {group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi"}
 moshi-converter = {group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "moshiConverter"}
 logging-interceptor = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingIntercepter"}
+coroutines-core = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines"}
+coroutines-android = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
